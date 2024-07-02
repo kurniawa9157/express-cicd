@@ -7,6 +7,12 @@ app.get('/',(req,res)=>{
     res.send('hello index')
 })
 
+app.get('/wawan',(req,res)=>{
+    res.send('Hello wawan')
+})
+
 app.listen(port, ()=>{
     console.log('app running on port '+port)
 })
+
+module.exports = app;
