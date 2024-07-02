@@ -11,6 +11,10 @@ app.get('/wawan',(req,res)=>{
     res.send('Hello wawan')
 })
 
+app.get('/alma',(req,res)=>{
+    res.send('Hello alma')
+})
+
 app.listen(port, ()=>{
     console.log('app running on port '+port)
 })
